@@ -1,4 +1,4 @@
-import { Sparkles, Mic, Waveform, Bot, Shield, Gauge } from "lucide-react";
+import { Sparkles, Mic, Activity, Bot, Shield, BarChart3 } from "lucide-react";
 
 const items = [
   {
@@ -7,7 +7,7 @@ const items = [
     desc: "Low-latency streaming in and out, feels natural and fast."
   },
   {
-    icon: <Waveform className="h-5 w-5" />, 
+    icon: <Activity className="h-5 w-5" />, 
     title: "Adaptive tone",
     desc: "Tunable persona and prosody that learns from examples."
   },
@@ -17,7 +17,7 @@ const items = [
     desc: "Knowledge, actions, and guardrails to accomplish tasks."
   },
   {
-    icon: <Gauge className="h-5 w-5" />, 
+    icon: <BarChart3 className="h-5 w-5" />, 
     title: "Analytics",
     desc: "Intent detection, turn-taking, and success metrics built-in."
   },
